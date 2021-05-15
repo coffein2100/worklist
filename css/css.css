@@ -1,0 +1,110 @@
+body{
+    position: relative;
+    margin: auto;
+    padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--basic-black);
+    background-color: darkslategrey;
+    min-width: 1200px;
+    display: grid;
+    align-content: start;
+}
+.container {
+    background-color:floralwhite;
+    background-size: cover;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 120px;
+    border-radius: 5px;
+  }
+.container-сontent{
+    width: 960px;
+    min-height: 50px;
+    margin: 0 auto;
+    padding: 0;
+}
+.enterdata{
+    font-family: 'Pacifico', cursive;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.poledata{
+    width: 800px;
+    min-height: 22px;
+    padding-left: 10px;
+}
+.btn{
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background-color: darkorchid;
+}
+.btn:hover{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
+.btn:focus{
+    border:none;
+}
+.btn:active{
+    border:none;
+}
+.listpriority{
+    font-family: 'Pacifico', cursive;
+    list-style: none;
+    width: 960px;
+    margin: 0 auto;
+    margin-top:15px;
+    padding: 0;
+}
+.listpriority-item{
+    display: block;
+    font-size: 24px;
+    min-height: 55px;
+    margin-bottom: 17px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    word-wrap: break-word;
+    color: lavender;
+    background-color: gray;
+    border-radius: 10px;
+}
+.listpriority-item:hover{
+    box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.6);
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: lightcoral;
+}
+.namelist{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+img {
+    max-width: 100%;
+    height: auto;
+  }
